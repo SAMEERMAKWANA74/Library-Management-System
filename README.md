@@ -24,3 +24,6 @@ This is a simple JSP web application that performs **CRUD operations** using **J
 - HTML + CSS
 - NetBeans (Recommended IDE)
 - MySQL via XAMPP or MySQL Server
+
+---
+> ⚠️ Note: This project uses local database credentials (`root` user) for learning purposes only. Do not use in production without securing your configuration.
