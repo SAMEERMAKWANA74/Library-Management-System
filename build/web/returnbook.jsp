@@ -11,7 +11,7 @@
     if(bookId != null && userId != null){
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/library_db", "root", "sameer5092");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/library_db", "root", "");
 
             // 1. Delete from issues_book or update status
             String deleteQuery = "DELETE FROM issues_book WHERE book_id=? AND user_id=?";
@@ -40,7 +40,7 @@
 %>
 <html>
     
-    <heaa>
+    <head>
         <style>
 
                 .form-container {

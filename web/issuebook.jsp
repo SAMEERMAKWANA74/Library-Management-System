@@ -8,7 +8,7 @@
     if(bookId != null && userId != null && issueDate != null && returnDate != null){
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/library_db", "root", "sameer5092");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/library_db", "root", "");
 
             // Check if book is available
             String checkQuery = "SELECT available FROM books WHERE id = ?";

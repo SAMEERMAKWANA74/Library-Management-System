@@ -4,9 +4,10 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/D:/programing/java/librarymanagment/web/returnbook.jsp</file>
-            <file>file:/D:/programing/java/librarymanagment/web/libraryform.jsp</file>
+            <file>file:/D:/programing/java/librarymanagment/web/login.jsp</file>
             <file>file:/D:/programing/java/librarymanagment/web/addbook.jsp</file>
             <file>file:/D:/programing/java/librarymanagment/web/index.jsp</file>
+            <file>file:/D:/programing/java/librarymanagment/web/logout.jsp</file>
             <file>file:/D:/programing/java/librarymanagment/web/viewbook.jsp</file>
             <file>file:/D:/programing/java/librarymanagment/web/issuebook.jsp</file>
         </group>

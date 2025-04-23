@@ -62,7 +62,7 @@
         <h1>Smart Library Management - Track, Issue, And Return Books</h1>
         <div class="imageset">
                     <img src="lms.png" alt="Responsive image">
-                    <button  type="button" onclick="location.href='addbook.jsp'" class="logbutton btn btn-outline-danger">logout</button>
+                    <button  type="button" onclick="location.href='logout.jsp'" class="logbutton btn btn-outline-danger">logout</button>
         </div>
             
         <div class="button-container">

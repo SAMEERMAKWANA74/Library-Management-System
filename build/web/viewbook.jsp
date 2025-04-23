@@ -57,7 +57,7 @@
 <%
     try {
         Class.forName("com.mysql.jdbc.Driver");
-        Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/library_db", "root", "sameer5092");
+        Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/library_db", "root", "");
         Statement stmt = con.createStatement();
         ResultSet rs = stmt.executeQuery("SELECT * FROM books");
 %>

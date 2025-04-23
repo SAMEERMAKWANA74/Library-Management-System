@@ -101,7 +101,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("        <h1>Smart Library Management - Track, Issue, And Return Books</h1>\n");
       out.write("        <div class=\"imageset\">\n");
       out.write("                    <img src=\"lms.png\" alt=\"Responsive image\">\n");
-      out.write("                    <button  type=\"button\" onclick=\"location.href='addbook.jsp'\" class=\"logbutton btn btn-outline-danger\">logout</button>\n");
+      out.write("                    <button  type=\"button\" onclick=\"location.href='logout.jsp'\" class=\"logbutton btn btn-outline-danger\">logout</button>\n");
       out.write("        </div>\n");
       out.write("            \n");
       out.write("        <div class=\"button-container\">\n");
@@ -109,7 +109,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                  <li><button type=\"button\" onclick=\"location.href='addbook.jsp'\" class=\"btn btn-warning\">Add Book</button></li>\n");
       out.write("                  <li><button type=\"button\" onclick=\"location.href='viewbook.jsp'\" class=\"btn btn-warning\">View Book</button></li>\n");
       out.write("                  <li><button type=\"button\" onclick=\"location.href='issuebook.jsp'\" class=\"btn btn-warning\">Issue Book</button></li>\n");
-      out.write("                  <li><button type=\"button\" onclick=\"location.href='addbook.jsp'\" class=\"btn btn-warning\">Return Book</button></li>\n");
+      out.write("                  <li><button type=\"button\" onclick=\"location.href='returnbook.jsp'\" class=\"btn btn-warning\">Return Book</button></li>\n");
       out.write("                </ul>\n");
       out.write("        </div>\n");
       out.write("           \n");

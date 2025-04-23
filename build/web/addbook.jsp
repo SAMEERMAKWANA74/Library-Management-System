@@ -7,12 +7,12 @@
     if(title != null && author != null && available != null){
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/library_db", "root", "sameer5092");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/library_db", "root","");
             String query = "INSERT INTO books (title, author, available) VALUES (?, ?, ?)";
             PreparedStatement ps = con.prepareStatement(query);
             ps.setString(1, title);
             ps.setString(2, author);
-            ps.setInt(3, Integer.parseInt(available));
+            ps.setBoolean(3, true); 
 
             int result = ps.executeUpdate();
             if(result > 0){
