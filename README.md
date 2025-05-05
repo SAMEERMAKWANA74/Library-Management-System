@@ -17,7 +17,7 @@ This is a simple JSP web application that performs **CRUD operations** using **J
 
 ## 🛠️ Tech Stack
 
-- Java EE (JSP + Servlets)
+- Java EE (JSP)
 - JDBC
 - MySQL
 - GlassFish Server 4.1.1+
