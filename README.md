@@ -16,7 +16,6 @@ This is a simple JSP web application that performs **CRUD operations** using **J
 ---
 
 ## 🛠️ Tech Stack
-
 - Java EE (JSP)
 - JDBC
 - MySQL
